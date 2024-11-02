@@ -1,6 +1,7 @@
 ﻿using System.Linq.Expressions;
 
 namespace OwnIt.Domain.Interfaces.Repositories.Base;
+
 public interface IBaseRepository<T> : IDisposable where T : class
 {
     T Delete(T entity);

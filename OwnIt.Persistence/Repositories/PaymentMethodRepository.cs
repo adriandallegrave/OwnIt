@@ -8,6 +8,5 @@ public class PaymentMethodRepository : BaseRepository<PaymentMethod>, IPaymentMe
 {
     public PaymentMethodRepository(OwnItContext context) : base(context)
     {
-
     }
 }

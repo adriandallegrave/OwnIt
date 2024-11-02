@@ -3,6 +3,7 @@ using OwnIt.Domain.Interfaces.Repositories.Base;
 using System.Linq.Expressions;
 
 namespace OwnIt.Persistence.Repositories.Base;
+
 public abstract class BaseRepository<T> : IBaseRepository<T> where T : class
 {
     protected OwnItContext Context { get; }

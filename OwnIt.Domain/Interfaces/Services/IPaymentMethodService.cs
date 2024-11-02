@@ -3,7 +3,6 @@ using OwnIt.Domain.Models;
 
 namespace OwnIt.Domain.Interfaces.Services;
 
-
 public interface IPaymentMethodService : IBaseService<PaymentMethod>
 {
 }
